@@ -43,11 +43,10 @@
             this.Name = "MainForm";
             this.Text = "Steam In Home Streaming Remote Desktop";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Activated += new System.EventHandler(this.Form1_Activated);
             this.Click += new System.EventHandler(this.Form1_Click);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
-
         }
 
         #endregion
