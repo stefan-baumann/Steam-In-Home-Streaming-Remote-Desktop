@@ -6,9 +6,26 @@ namespace Steam_In_Home_Streaming_Desktop
 {
     public partial class MainForm : Form
     {
+        private NotifyIcon notifyIcon1;
+        private ContextMenu contextMenu1;
+        private MenuItem menuItem1;
+        
+        private bool Startup = true;
+
         public MainForm()
         {
             InitializeComponent();
+
+            contextMenu1 = new ContextMenu();
+            menuItem1 = new MenuItem();
+            contextMenu1.MenuItems.AddRange(new MenuItem[] {menuItem1});
+            menuItem1.Index = 0;
+            menuItem1.Text = "Q&uit";
+            menuItem1.Click += new EventHandler(menuItem1_Click);
+
+            notifyIcon1 = new NotifyIcon();
+            notifyIcon1.Icon = this.Icon;
+            notifyIcon1.ContextMenu = contextMenu1;
         }
 
         private void Form1_Click(object sender, EventArgs e)
@@ -33,11 +50,25 @@ namespace Steam_In_Home_Streaming_Desktop
                 e.Graphics.DrawString("End Desktop Stream", new Font("Segoe UI", 96), SystemBrushes.ControlText, this.ClientRectangle, CenterFormat);
         }
 
-        bool Startup = true;
-        private void Form1_Activated(object sender, EventArgs e)
+        private void Form1_Resize(object sender, EventArgs e)
         {
-            if (!Startup)
-                Application.Exit();
+            if (FormWindowState.Minimized == this.WindowState)
+            {
+                notifyIcon1.Visible = true;
+                this.Hide();
+            }
+
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIcon1.Visible = false;
+            }
+        }
+
+        private void menuItem1_Click(object Sender, EventArgs e)
+        {
+            notifyIcon1.Dispose();
+            // Close the form, which closes the application. 
+            this.Close();
         }
     }
 }

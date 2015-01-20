@@ -1,9 +1,0 @@
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\bin\Release\Steam In Home Streaming Remote Desktop.exe.config
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\bin\Release\Steam In Home Streaming Remote Desktop.exe
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\bin\Release\Steam In Home Streaming Remote Desktop.pdb
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\Steam In Home Streaming Desktop.csprojResolveAssemblyReference.cache
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\Steam_In_Home_Streaming_Desktop.MainForm.resources
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\SteamInHomeStreamingRemoteDesktop.Properties.Resources.resources
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\Steam In Home Streaming Desktop.csproj.GenerateResource.Cache
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\Steam In Home Streaming Remote Desktop.exe
-D:\Users\Stefan\Documents\GitHub\Steam-In-Home-Streaming-Remote-Desktop\Steam In Home Streaming Desktop\obj\Release\Steam In Home Streaming Remote Desktop.pdb
