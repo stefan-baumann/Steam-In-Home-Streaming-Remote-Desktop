@@ -7,8 +7,8 @@
     <ProjectGuid>{5E6866AE-184C-48DA-9520-12E4D610A5D6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SteamInHomeStreamingRemoteDesktop</RootNamespace>
-    <AssemblyName>Steam In Home Streaming Remote Desktop</AssemblyName>
+    <RootNamespace>SteamRemoteDesktop</RootNamespace>
+    <AssemblyName>Steam Remote Desktop</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>SIHS Remote Desktop Standard Logo.ico</ApplicationIcon>
+    <ApplicationIcon>computers.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -77,8 +77,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SIHS End Remote Desktop Logo.ico" />
-    <Content Include="SIHS Remote Desktop Standard Logo.ico" />
+    <None Include="Resources\computercross.ico" />
+    <Content Include="computers.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

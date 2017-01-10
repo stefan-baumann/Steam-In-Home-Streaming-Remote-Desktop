@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("Steam In Home Streaming Remote Desktop")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Steam Remote Desktop")]
+[assembly: AssemblyDescription("Allows to stream the whole Desktop via the Steam In Home Streaming technology")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Stefan Baumann")]
-[assembly: AssemblyProduct("Steam In Home Streaming Remote Desktop")]
-[assembly: AssemblyCopyright("Copyright © 2014 Stefan Baumann")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Steam Remote Desktop")]
+[assembly: AssemblyCopyright("Copyright © 2016 iAndroHacker")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
