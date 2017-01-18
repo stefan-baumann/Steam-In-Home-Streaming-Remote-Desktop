@@ -13,8 +13,8 @@ His program does not work on the latest version of Steam but i got it working
 0.2
 - Added steam_monitor.exe process detection
 - Added timer to minimize the window after 2 seconds
-- Bring back minimize to tray icon by a request
-- Icon no longer appear on taskbar
+- Bring back minimize to tray icon (requested)
+- Icon no longer appear on taskbar (requested)
 
 0.1
 - First release
