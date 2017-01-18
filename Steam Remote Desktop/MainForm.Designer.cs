@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.accessDesktopBtn = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -63,6 +65,11 @@
             this.accessDesktopBtn.Visible = false;
             this.accessDesktopBtn.Click += new System.EventHandler(this.accessDesktopBtn_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 2000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -75,6 +82,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.ShowInTaskbar = false;
             this.Text = "Steam In Home Streaming Remote Desktop";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Click += new System.EventHandler(this.Form1_Click);
@@ -88,6 +96,7 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button accessDesktopBtn;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
