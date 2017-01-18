@@ -7,6 +7,8 @@ Original author: [kevinxucs](https://github.com/kevinxucs/steam-remote-desktop)
 
 His program does not work on the latest version of Steam but i got it working
 
+`this.Hide();` cause the streamer to freeze
+
 #Changes
 - Dark background
 - New icon
