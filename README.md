@@ -9,8 +9,12 @@ His program does not work on the latest version of Steam but i got it working
 
 `this.Hide();` cause the streamer to freeze
 
-#Changes
-- Dark background
-- New icon
-- The program minimize to task bar instead to icon tray to prevent freezes
-- Add a button to access desktop again in "end desktop stream" screen
+#Changelogs
+0.2
+- Added steam_monitor.exe process detection
+- Added timer to minimize the window after 2 seconds
+- Bring back minimize to tray icon by a request
+- Icon no longer appear on taskbar
+
+0.1
+- First release
