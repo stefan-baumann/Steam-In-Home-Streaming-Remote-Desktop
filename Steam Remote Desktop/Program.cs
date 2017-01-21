@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Steam_In_Home_Streaming_Desktop
+namespace Steam_Remote_Desktop
 {
     static class Program
     {
